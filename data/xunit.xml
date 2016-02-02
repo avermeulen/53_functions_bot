@@ -1,0 +1,29 @@
+<testsuite name="Mocha Tests" tests="12" failures="11" errors="11" skipped="0" timestamp="2016-02-02T07:25:59" time="0.019">
+<testcase classname="hello_joe" name="should return  - 'Hello, XOLANI!'" time="0.001"><failure message="&amp;quot;undefined&amp;quot; == &amp;quot;Hello, XOLANI!&amp;quot;"><![CDATA[AssertionError: &quot;undefined&quot; == &quot;Hello, XOLANI!&quot;
+    at Context.&lt;anonymous&gt; (test/hello_joe_test.js:8:16)]]></failure></testcase>
+<testcase classname="hello_joe" name="should return 'Hello!' hello for Joe" time="0"><failure message="&amp;quot;undefined&amp;quot; == &amp;quot;Hello!&amp;quot;"><![CDATA[AssertionError: &quot;undefined&quot; == &quot;Hello!&quot;
+    at Context.&lt;anonymous&gt; (test/hello_joe_test.js:13:16)]]></failure></testcase>
+<testcase classname="hello_joe" name="should return 'Hello!' hello for Bob" time="0"><failure message="&amp;quot;undefined&amp;quot; == &amp;quot;Hello!&amp;quot;"><![CDATA[AssertionError: &quot;undefined&quot; == &quot;Hello!&quot;
+    at Context.&lt;anonymous&gt; (test/hello_joe_test.js:18:16)]]></failure></testcase>
+<testcase classname="test for hello function" name="it should say hello" time="0"/>
+<testcase classname="hello_uppercase" name="should return uppercase name  - 'Hello, XOLANI!'" time="0"><failure message="&amp;quot;undefined&amp;quot; == &amp;quot;Hello, XOLANI!&amp;quot;"><![CDATA[AssertionError: &quot;undefined&quot; == &quot;Hello, XOLANI!&quot;
+    at Context.&lt;anonymous&gt; (test/hello_uppercase_test.js:8:16)]]></failure></testcase>
+<testcase classname="hello_uppercase" name="should return uppercase hello if no parameter supplied  - 'HELLO!'" time="0"><failure message="&amp;quot;undefined&amp;quot; == &amp;quot;HELLO!&amp;quot;"><![CDATA[AssertionError: &quot;undefined&quot; == &quot;HELLO!&quot;
+    at Context.&lt;anonymous&gt; (test/hello_uppercase_test.js:13:16)]]></failure></testcase>
+<testcase classname="length" name="should return 16 for the string 'zebras are cool!'" time="0"><failure message="length is not defined"><![CDATA[ReferenceError: length is not defined
+    at Context.&lt;anonymous&gt; (test/length_test.js:7:23)]]></failure></testcase>
+<testcase classname="length" name="should return 0 for the string ''" time="0"><failure message="length is not defined"><![CDATA[ReferenceError: length is not defined
+    at Context.&lt;anonymous&gt; (test/length_test.js:11:23)]]></failure></testcase>
+<testcase classname="number_list" name="should return [1, 2, 3, 4, 5] when number_list called with 5" time="0.001"><failure message="&amp;quot;undefined&amp;quot; deepEqual [1,2,3,4,5]"><![CDATA[AssertionError: &quot;undefined&quot; deepEqual [1,2,3,4,5]
+    at Context.&lt;anonymous&gt; (test/number_list_test.js:8:16)]]></failure></testcase>
+<testcase classname="sum_numbers" name="should return  14 when called with 5" time="0"><failure message="&amp;quot;undefined&amp;quot; == 14"><![CDATA[AssertionError: &quot;undefined&quot; == 14
+    at Context.&lt;anonymous&gt; (test/sum_numbers_test.js:8:16)]]></failure></testcase>
+<testcase classname="sum_numbers" name="should return 0 when caled with 0" time="0"><failure message="&amp;quot;undefined&amp;quot; == 0"><![CDATA[AssertionError: &quot;undefined&quot; == 0
+    at Context.&lt;anonymous&gt; (test/sum_numbers_test.js:13:16)]]></failure></testcase>
+<testcase classname="upper" name="should uppercase 'ZEBRAS' " time="0"><failure message="Object function ok(value, message) {
+  if (!!!value) fail(value, true, message, '==', assert.ok);
+} has no method 'equals'"><![CDATA[TypeError: Object function ok(value, message) {
+  if (!!!value) fail(value, true, message, '==', assert.ok);
+} has no method 'equals'
+    at Context.&lt;anonymous&gt; (test/upper_test.js:10:16)]]></failure></testcase>
+</testsuite>
